@@ -20,3 +20,12 @@ git commit -m "Initial commit"
 git push -u origin main
 
 git pull origin main --allow-unrelated-histories
+
+
+
+
+
+# after sme changes to push to github
+git add .gitignore
+git commit -m 'gitignore changed'
+git push origin main
