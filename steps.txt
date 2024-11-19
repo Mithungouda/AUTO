@@ -1,0 +1,22 @@
+# Navigate to your project directory
+cd /path/to/your/local/project
+
+# Initialize a new Git repository
+git init
+
+# Add a remote repository named "origin"
+git remote add origin https://github.com/your-username/your-repo.git
+
+# Check the status of your working directory
+git status
+
+# Stage all changes for the commit
+git add .
+
+# Commit the staged changes with a message
+git commit -m "Initial commit"
+
+# Push the local "main" branch to the remote "origin"
+git push -u origin main
+
+git pull origin main --allow-unrelated-histories
